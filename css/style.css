@@ -89,8 +89,8 @@ nav {
 .card {
   background-color: #fff;
   border: 5px solid #EDBF24;
-  width: 250px;
-  height: 430px;
+  width: 270px;
+  height: 470px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
   border-radius: 20px;
@@ -228,6 +228,68 @@ footer a:hover {
 }
 
 .copy {
+  text-align: center;
+}
+
+/*SECCION CARRITO*/
+.cart {
+  background-color: #EDBF24;
+}
+
+.cart h2 {
+  color: black;
+  text-decoration: underline;
+}
+
+#cart-items {
+  background-color: white; /* O cualquier color claro que contraste con el texto */
+  color: black; /* Asegúrate de que el texto sea visible */
+  padding: 10px;
+  border: 5px solid #ccc;
+}
+
+#cart-items li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8px;
+  color: black;
+  font-weight: bold;
+  list-style: none; /* Para eliminar los puntos de lista si es necesario */
+  margin: 5px 0;
+}
+
+#cart-total {
+  font-weight: bold;
+  color: black; /* Asegúrate de que el texto sea visible */
+}
+
+#cart-total p {
+  color: black; /* Asegúrate de que el texto sea visible */
+}
+
+#cancel {
+  margin: 10px;
+}
+
+#modify {
+  margin-right: 10px;
+}
+
+.remove-from-cart {
+  background-color: #218838 !important; /* Fondo rojo */
+  color: white !important; /* Texto blanco */
+  font-size: 10px;
+  padding: 2px !important; /* Tamaño del botón */
+  border: none !important;
+  border-radius: 3px !important;
+  cursor: pointer !important;
+}
+
+.remove-from-cart:hover {
+  background-color: #e60000 !important; /* Fondo rojo más oscuro al pasar el ratón */
+}
+
+.quantity-input {
+  width: 50px;
   text-align: center;
 }
 
