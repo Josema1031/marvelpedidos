@@ -296,60 +296,6 @@ footer a:hover {
 body {
   padding: 0;
   margin: 0;
-  
-}
-
- /* Estilos para la ventana modal */
- .modal {
-  display: none; /* Oculta la modal por defecto */
-  position: fixed; /* Fija la modal en la pantalla */
-  z-index: 1; /* Asegura que la modal esté por encima de otros elementos */
-  left: 0;
-  top: 0;
-  width: 100%; /* Ancho total de la pantalla */
-  height: 100%; /* Alto total de la pantalla */
-  overflow: auto; /* Habilita el scroll si es necesario */
-  background-color: rgb(0, 0, 0); /* Color de fondo oscuro */
-  background-color: rgba(0, 0, 0, 0.4); /* Fondo con opacidad */
-}
-.titulo-modal{
-  font-size: 1.5rem;
-  text-align: center;
-  text-decoration: underline;
-}
-.img-modal {
-  display: flex;
-  width: 60%;
-  height: 50%;
-  margin: auto;
-}
-
-
-
-
-/* Estilos para el contenido de la modal */
-.modal-content {
-  background-color: #EDBF24;
-  margin: 15% auto; /* Centramos la modal en la pantalla */
-  padding: 20px;
-  border: 1px solid #888;
-  width: 50%; /* Ancho de la modal */
-  height: 70%;
-}
-
-/* Estilos para el botón de cerrar */
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
